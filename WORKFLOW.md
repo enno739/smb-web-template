@@ -167,17 +167,9 @@ Standardisierter Workflow für Kundenprojekte. Claude orientiert sich an diesem 
 
 ## Modell-Zuweisung
 
-**Faustregel:** Opus fuer Entscheidungen und Kreativitaet. Sonnet fuer Ausfuehrung nach Plan.
+**Faustregel:** Opus nur fuer kreative Richtungsentscheidungen ohne festen Rahmen. Sonnet fuer alles mit Skills, Checklisten oder klarer Struktur.
 
 | Phase | Aufgabe | Modell |
 |-------|---------|--------|
-| 1.2 | Keyword-Recherche & SEO-Strategie | **Opus** |
-| 1.4 | Content optimieren / Texte schreiben | **Opus** |
-| 1.6 | Design erarbeiten | **Opus** |
-| 2.6 | Code-Review | **Opus** |
-| 4.1 | Finaler SEO-Audit | **Opus** |
-| 4.2 | Security Review | **Opus** |
-| 1.1, 1.3, 1.5, 1.7 | Content sammeln, Struktur, Bilder, Projektkonfig | **Sonnet** |
-| 2.1–2.5, 2.7 | HTML/CSS/JS, SEO-Implementation, Testing | **Sonnet** |
-| 3.2 | Feedback einarbeiten | **Sonnet** |
-| 4.3–4.5 | Performance, Accessibility, Deployment | **Sonnet** |
+| 1.6 | Design erarbeiten (Farbe, Fonts, Brand Direction) | **Opus** |
+| Alle anderen | Alle uebrigen Phasen | **Sonnet** |
