@@ -7,14 +7,18 @@ npm install
 
 ## 2. Claude Code Skills installieren
 ```bash
-claude skills install ui-ux-pro-max
-claude skills install frontend-design
-claude skills install web-design-guidelines
-claude skills install seo-audit
-claude skills install find-skills
+npx skills add calm-north/seojuice-skills@rank-local -g -y
+npx skills add kostja94/marketing-skills@schema-markup -g -y
+npx skills add kostja94/marketing-skills@copywriting -g -y
+npx skills add aj-geddes/useful-ai-prompts@image-optimization -g -y
+npx skills add dirnbauer/webconsulting-skills@ai-search-optimization -g -y
 ```
 
-> Prüfe mit `claude skills list` welche bereits global installiert sind.
+> Die folgenden Skills sollten bereits global installiert sein:
+> `ui-ux-pro-max`, `frontend-design`, `web-design-guidelines`, `seo-audit`,
+> `ckm-design`, `ckm-brand`, `ckm-design-system`, `simplify`, `find-skills`
+>
+> Pruefen mit: `ls ~/.claude/skills/` oder im Claude Code Skill-Menu.
 
 ## 3. Projekt-Dateien befüllen
 - [ ] `CONTENT.md` – Inhalte vom Kunden eintragen
